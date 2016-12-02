@@ -31,11 +31,12 @@ def login():
     f.close()
     captcha = raw_input('>>>')
     url = 'https://www.zhihu.com/login/email'
+    # 里面的email就是邮箱号、password就是密码
     data={
                 '_xsrf':_xsrf,
                 'captcha':captcha,
-                'email':'hsm225@163.com',
-                'password':'nanchang123',
+                'email':'**************',
+                'password':'**********',
                 'remember_me':'True'
             }
     r = s.post(url=url, data=data, headers=headers)
