@@ -1,2 +1,2 @@
 # python-requests_zhihu_page
-one step inthe process of study python
+#apply a zhihu question url, then scrapy all questions, and just print them.
